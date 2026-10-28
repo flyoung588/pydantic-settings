@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.12, pytest-9.2.0, pluggy-1.7.0 -- /Users/feiyang/.codex/.chatgpt-projects/g-p-6a8bc3896c108191b1914e9af9ac0262/co-do-round3/track-d/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/feiyang/.codex/.chatgpt-projects/g-p-6a8bc3896c108191b1914e9af9ac0262/co-do-round4/track-d/settings
+configfile: pyproject.toml
+collecting ... collected 529 items / 522 deselected / 7 selected
+
+tests/test_settings.py::test_nested_dict_env_model_value_key_collision[None-other] PASSED [ 14%]
+tests/test_settings.py::test_nested_dict_env_model_value_key_collision[None-name] PASSED [ 28%]
+tests/test_settings.py::test_nested_dict_env_model_value_key_collision[None-count] PASSED [ 42%]
+tests/test_settings.py::test_nested_dict_env_model_value_key_collision[label-other] PASSED [ 57%]
+tests/test_settings.py::test_nested_dict_env_model_value_key_collision[label-name] PASSED [ 71%]
+tests/test_settings.py::test_nested_dict_env_model_value_key_collision[label-label] PASSED [ 85%]
+tests/test_settings.py::test_nested_dict_env_model_value_key_collision[label-count] PASSED [100%]
+
+====================== 7 passed, 522 deselected in 0.47s =======================
