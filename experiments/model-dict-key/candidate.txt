@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.12, pytest-9.2.0, pluggy-1.7.0 -- /Users/feiyang/.codex/.chatgpt-projects/g-p-6a8bc3896c108191b1914e9af9ac0262/co-do-round3/track-d/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/feiyang/.codex/.chatgpt-projects/g-p-6a8bc3896c108191b1914e9af9ac0262
+configfile: pyproject.toml
+collecting ... collected 7 items
+
+co-do-round3/track-d/probe_model_keys.py::test_model_valued_dict_key[other] PASSED [ 14%]
+co-do-round3/track-d/probe_model_keys.py::test_model_valued_dict_key[name] PASSED [ 28%]
+co-do-round3/track-d/probe_model_keys.py::test_model_valued_dict_key[count] PASSED [ 42%]
+co-do-round3/track-d/probe_model_keys.py::test_aliased_model_valued_dict_key[other] PASSED [ 57%]
+co-do-round3/track-d/probe_model_keys.py::test_aliased_model_valued_dict_key[name] PASSED [ 71%]
+co-do-round3/track-d/probe_model_keys.py::test_aliased_model_valued_dict_key[label] PASSED [ 85%]
+co-do-round3/track-d/probe_model_keys.py::test_aliased_model_valued_dict_key[count] PASSED [100%]
+
+============================== 7 passed in 0.14s ===============================
