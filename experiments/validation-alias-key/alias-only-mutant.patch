@@ -1,0 +1,16 @@
+--- a/pydantic_settings/sources/providers/env.py
++++ b/pydantic_settings/sources/providers/env.py
+@@ -277,7 +277,12 @@
+         if _lenient_issubclass(get_origin(annotation), dict):
+             # get value type if it's a dict
+             args = get_args(annotation)
+-            return args[-1] if args else None
++            value_type = args[-1] if args else None
++            if is_model_class(value_type):
++                for candidate in _get_model_fields(value_type).values():
++                    if candidate.validation_alias == key:
++                        return candidate
++            return value_type
+         for type_ in get_args(annotation):
+             type_has_key = self.next_field(type_, key, case_sensitive)
+             if type_has_key:
